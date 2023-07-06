@@ -1,0 +1,86 @@
+.today{
+    padding-top: 67px;
+    position: relative;
+    &::after{
+        content: '';
+        position: absolute;
+        width: 110000px;
+        height: 171px;
+        background: #B7B7B7;
+        z-index: 0;
+        bottom: 0px;
+    }
+    .today_block{
+        display: flex;
+        gap: 0 68px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        @media #{$small_laptop}{
+            margin: 0 -15px;
+        }
+        .today_img_ru, .today_img_en{
+            position: absolute;
+            top: -105px;
+            right: 0px;
+        }
+        // background-image: url(../imgs/today.png);
+        // background-repeat: no-repeat;
+        // background-position: right top;
+        .today_logo{
+            img{
+                position: relative;
+                z-index: 2;
+            }
+            position: relative;
+            &::after{
+                content: '';
+                position: absolute;
+                background: #F57D0C;
+                height: 105px;
+                width: 600px;
+                left: -50px;
+                z-index: 1;
+                top: 115px;
+            }
+        }
+        .today_content{
+            position: relative;
+            z-index: 3;
+            padding: 21px 22px 51px 68px;
+            background: #F5F5F5;
+            box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.10);
+            transform: translate(0px,90px);
+            .today_title{
+                color: #000;
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 116.3%;
+                text-transform: uppercase;
+                margin-bottom: 12px;
+            }
+            .today_description{
+                color: #454444;
+                font-size: 20px;
+                font-family: Noto Sans;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 140.5%;
+                margin-bottom: 8px;
+                width: 380px;
+                a{
+                    padding-top: 8px;
+                    display: block;
+                }
+                .black_sp{
+                    font-weight: 600;
+                }
+                .orange_sp{
+                    a{
+                        color: #F57D0C;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.big_tall_img{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.who_am_i{
+    background-color: #F5F5F5;
+    .who_am_i_tall{
+        width: 100%;
+        object-fit: cover;
+    }
+    .who_am_i_block{
+        display: flex;
+        .who_am_i_tall{
+            width: 100%;
+        }
+        .who_am_i_content{
+            padding: 0 199px;
+            .who_am_i_mini_text{
+                padding-top: 76px;
+                color: #000;
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 151.3%;
+                margin-bottom: 8px;
+            }
+            .who_am_i_description{
+                color: #454444;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 150%;
+                width: 520px;
+            }
+        }
+    }
+}

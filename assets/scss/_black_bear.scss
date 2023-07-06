@@ -1,0 +1,140 @@
+.black_bear{
+    padding-top: 114px;
+    .black_bear_block{
+        .black_bear_top{
+            display: flex;
+            justify-content: space-around;
+            position: relative;
+            gap: 0px 227px;
+            @media #{$small_laptop}{
+                margin: 0 -15px;
+            }
+            .black_bear_top_content{
+                color: #000;
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 151.3%;
+                text-transform: uppercase;
+                display: flex;
+                align-items: flex-end;
+                padding-bottom: 74px;
+                transform: translate(-218px,-20px);
+            }
+            .bb_img_1{
+                padding-bottom: 98px;
+            }
+            span{
+                color: var(--orange-primery, #F57D0C);
+                font-size: 340px;
+                font-weight: 600;
+                line-height: 116.3%;
+                text-transform: uppercase;
+                opacity: 0.15000000596046448;
+                position: absolute;
+                right: 0;
+                bottom: 0;
+            }
+        }
+        .black_bear_bottom{
+            display: flex;
+            justify-content: center;
+            gap: 0px 124px;
+            position: relative;
+            z-index: 2;
+            .black_bear_bottom_content{
+                p{
+                    color: #454444;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 140.5%;
+                    width: 370px;
+                    &:first-child{
+                        margin-bottom: 8px;
+                    }
+                    &:nth-child(2){
+                        margin-bottom: 36px;
+                    }
+                    span{
+                        font-weight: 700;
+                    }
+                }
+            }
+            .bb_img_2{
+                padding-top: 54px;
+            }
+        }
+        .black_bear_down{
+            background: #F57D0C;
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-around;
+            padding: 125px 66px 39px 99px;
+            position: relative;
+            z-index: 1;
+            // transform: translateY(-110px);
+            transform: translate(-70px,-110px);
+            width: 1150px;
+            @media #{$small_laptop}{
+                transform: translate(-70px,-110px);
+                width: 1150px;
+            }
+            .black_bear_down_question{
+                color: #FFF;
+                font-size: 32px;
+                font-weight: 600;
+                line-height: 151.3%;
+                text-transform: uppercase;
+                padding-right: 53px;
+                
+            }
+            .black_bear_down_content{
+                display: flex;
+                flex-direction: column;
+                gap: 8px 0px;
+                padding-left: 30px;
+                border-left: 3px solid #FFF;
+                .black_bear_down_subtitle{
+                    color: #F5F5F5;
+                    font-size: 24px;
+                    font-weight: 600;
+                    line-height: 151.3%;
+                    text-align: right;
+                }
+                .black_bear_down_description{
+                    color: #F5F5F5;
+                    text-align: right;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: normal;
+                    
+                }
+            }
+        }
+    }
+    .big_bear{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        transform: translate(0px,-60px);
+        .bb_icons{
+            position: absolute;
+        }
+        .bb_learn_more{
+            color: #000;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: normal;
+            padding: 7px 18px;
+            border-radius: 5px;
+            border: 3px solid #000;
+            background: rgba(217, 217, 217, 0.00);
+            position: absolute;
+            bottom: 268px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

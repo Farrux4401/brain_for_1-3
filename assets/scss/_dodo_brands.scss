@@ -1,0 +1,254 @@
+.dodo-brands {
+  padding: 65px 0 180px 0;
+  .dodo-brands__row {
+    margin-bottom: 150px;
+  }
+  .big-year {
+    color: #f57d0c;
+    font-size: 340px;
+    font-weight: 600;
+    line-height: 116.3%;
+    text-transform: uppercase;
+    opacity: 0.15000000596046448;
+    margin-top: 50px;
+  }
+  .dodo-brands_text {
+    display: flex;
+    justify-content: flex-end;
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 151.3%;
+    text-transform: uppercase;
+    margin-top: -135px;
+    margin-right: 130px;
+  }
+  .dodo-creator {
+    img {
+      width: 100%;
+    }
+  }
+  .dodo-vertical_img {
+    img {
+      display: block;
+      padding-left: 110px;
+    }
+  }
+  .dodo-life_block {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    .dodo-life_block-text1 {
+      width: 284px;
+      color: #000;
+      display: flex;
+      text-align: right;
+      justify-content: flex-end;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 151.3%;
+      margin-bottom: 50px;
+    }
+    .dodo-life_block-text2 {
+      width: 356px;
+      color: #454444;
+      text-align: right;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 140.5%;
+      margin-bottom: 68px;
+    }
+    .dodo-life_block-img {
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .dodo-brands_footer {
+    width: 95%;
+    height: 242px;
+    background: #f57d0c;
+    margin-top: -50px;
+    padding: 106px 0 0px 209px;
+    .dodo-brands_footer-title {
+      color: #fff;
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 151.3%;
+      text-transform: uppercase;
+    }
+    .dodo-brands_footer-subtitle {
+      border-left: 3px solid #fff;
+      padding-left: 25px;
+      padding-right: 70px;
+      p {
+        color: #f5f5f5;
+        text-align: right ;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 151.3%;
+      }
+      span {
+        display: block;
+        color: #f5f5f5;
+        text-align: right;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+    
+  }
+  .sponsors {
+    padding-top: 73px;
+    // padding-bottom: 44px;
+    ul {
+      display: flex;
+      justify-content: center;
+      gap: 0 85px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .dodo-conference {
+    padding-top: 45px;
+    position: relative;
+
+    .dodo-conference_text {
+      margin-bottom: 100px;
+      p {
+        width: 170px;
+        color: #000;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 116.3%;
+        margin-bottom: 30px;
+        margin-top: 20px;
+      }
+      span {
+        display: block;
+        width: 168px;
+        color: #000;
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 116.3%;
+      }
+    }
+    .dodo-shop_count {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 434px;
+      height: 291px;
+      background: #f5f5f5;
+      box-shadow: -1px -1px 2px 0px rgba(0, 0, 0, 0.15);
+      transform: translate(90px,18px);
+      .shop-978 {
+        color: #000;
+        text-align: center;
+        font-size: 64px;
+        font-weight: 600;
+        line-height: 151.3%;
+        text-transform: uppercase;
+      }
+      .shops {
+        color: #000;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 151.3%;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        border-bottom: 3px solid #F57D0C;
+      }
+      .in-18 {
+        color: #000;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 151.3%;
+      }
+    }
+    .dodo-meeting {
+      position: absolute;
+      right: 0;
+      top: 20%;
+      width: 68%;
+      z-index: -1;
+    }
+    .dodo-orange-box {
+      position: absolute;
+      bottom: -100px;
+      left: 300px;
+      width: 608px;
+      height: 362px;
+      background: #f57d0c;
+      z-index: -2;
+    }
+    .dodo-gray-box {
+      position: absolute;
+      width: 100%;
+      height: 196px;
+      background: #d9d9d9;
+      bottom: -50px;
+      z-index: -3;
+    }
+  }
+  .my-tasks {
+    padding-top: 208px;
+    .my-tasks-img {
+      img{
+        width: 100%;
+      }
+      position: relative;
+      &::after {
+        content: "";
+        position: absolute;
+        top: calc(20% + 7px);
+        left: -15px;
+        width: 84px;
+        height: 392px;
+        flex-shrink: 0;
+        background: #f57d0c;
+        z-index: -1;
+      }
+    }
+    .my-tasks-text {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      position: relative;
+      padding-right: 50px;
+      margin-top: 100px;
+      &::before {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: calc(26% + 7px);
+        width: 3px;
+        height: 268px;
+        background: #5f5147;
+      }
+      h4 {
+        color: #000;
+        text-align: right;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 151.3%;
+        margin-bottom: 16px;
+      }
+      p {
+        display: flex;
+        justify-content: flex-end;
+        width: 380px;
+        color: #454444;
+        text-align: right;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 140.5%;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

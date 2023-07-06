@@ -1,0 +1,48 @@
+.the_life_of_our_pizzerias{
+    padding-top: 6px;
+    // padding-bottom: 204px;
+    padding-bottom: 154px;
+    background-color: #F5F5F5;
+    @media #{$small_laptop}{
+        padding-top: 6px;
+    }
+    .the_life_of_our_pizzerias_block{
+        .the_life_of_our_pizzerias_title{
+            color: #000;
+            text-align: center;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 151.3%;
+            text-transform: uppercase;
+            // margin-bottom: 46px;
+        }
+        .the_life_of_our_pizzerias_gallery{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            .the_life_of_our_pizzerias_column{
+                display: flex;
+                flex-direction: column;
+                gap: 12px;
+            }
+            .the_life_of_our_pizzerias_row{
+                display: flex;
+                gap: 12px;
+            }
+        }
+    }
+    .swiper {
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+        padding: 50px 25px;
+      }
+      .gallery-one-swiper{
+        position: relative;
+      }
+  
+     
+}

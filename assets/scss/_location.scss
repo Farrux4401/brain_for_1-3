@@ -1,0 +1,128 @@
+.location{
+    padding-bottom: 70px;
+    // padding-top: 109px;
+    margin-top: -50px;
+    position: relative;
+    &::after{
+        content: '';
+        position: absolute;
+        width: 1047000px;
+        height: 162px;
+        background: var(--grey-primary, #D9D9D9);
+        bottom: 90px;
+        z-index: 0;
+        @media #{$small_laptop}{
+            // bottom: 90px;
+        }
+    }
+    .location_top{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .address{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            ul{
+                display: flex;
+                align-items: center;
+                gap: 0 28px;
+                &:last-child{
+                    padding-right: 70px;
+                }
+                li{
+                    display: flex;
+                    align-items: center;
+                    gap: 0 8px;
+                    color: #000;
+                    font-size: 24px;
+                    font-weight: 500;
+                    line-height: 151.3%;
+                    text-transform: uppercase;
+                    span{
+                        width: 8px;
+                        height: 8px;
+                        background: #F57D0C;
+                    }
+                }
+            }
+        }
+    }
+    .location_map{
+        text-align: center;
+        img{
+            // transform: translate(45px, -65px);
+            transform: translate(-15px, -73px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            @media #{$small_laptop}{
+                // transform: translate(-15px, -73px);
+            }
+        }
+    }
+}
+.dodo_my_tasks{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 0 178px;
+    position: relative;
+    top: -99px;
+    padding: 0 70px;
+        &::after{
+            content: '';
+            position: absolute;
+            width: 16px;
+            height: 356px;
+            background: #F57D0C;
+            right: 75px;
+            top: 235px;
+            z-index: 2;
+            @media #{$small_laptop}{
+                // right: 60px;
+            }
+        }
+    .dodo_my_tasks_img{
+        padding-top: 109px;
+        position: relative;
+        z-index: 1;
+        @media #{$small_laptop}{
+            bottom: -30px;
+        }
+        
+    }
+    .dodo_my_tasks_content{
+        margin-top: -120px;
+        position: relative;
+        &::after{
+            content: '';
+            position: absolute;
+            background: #5F5147;
+            width: 3px;
+            height: 212px;
+            left: -50px;
+            top: 65px;
+        }
+    }
+    .dodo_my_tasks_title{
+        margin-bottom: 16px;
+        color: #000;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 151.3%;
+    }
+    .dodo_my_tasks_description{
+        display: flex;
+        flex-direction: column;
+        gap: 8px 0;
+        p{
+            color: #454444;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 140.5%;
+            width: 460px;
+        }
+    }
+}

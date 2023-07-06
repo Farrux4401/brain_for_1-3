@@ -1,0 +1,39 @@
+.what_i_do{
+    padding-top: 200px;
+    padding-bottom: 246px;
+    background-color: #F5F5F5;
+    .what_i_do_block{
+        display: flex;
+        gap: 0px 92px;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0 50px;
+        // .what_i_do_img{}
+        .what_i_do_content{
+            display: flex;
+            flex-direction: column;
+            gap: 16px 0px;
+            width: 500px;
+            .what_i_do_title{
+                color: #000;
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 151.3%;
+                padding-left: 51px;
+            }
+            .what_i_do_description{
+                display: flex;
+                flex-direction: column;
+                gap: 8px 0px;
+                padding-left: 48px;
+                border-left: 3px solid #5F5147;
+                p{
+                    color: #454444;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 140.5%;
+                }
+            }
+        }
+    }
+}

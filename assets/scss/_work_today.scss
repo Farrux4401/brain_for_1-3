@@ -1,0 +1,39 @@
+.work_today{
+    background-color: #F5F5F5;
+    // padding-top: 174px;
+    padding-top: 154px;
+    padding-bottom: 137px;
+    .work_today_block{
+        .work_today_box{
+            display: flex;
+            gap: 0 91px;
+            align-items: center;
+            justify-content: space-around;
+            padding: 0 80px;
+            .work_today_item{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .work_today_img{
+                    margin-bottom: 12px;
+                }
+                .work_today_item_title{
+                    margin-bottom: 24px;
+                    color: #F57D0C;
+                    text-align: center;
+                    font-size: 16px;
+                    font-weight: 700;
+                    font-variant: small-caps;
+                    line-height: normal;
+                    width: 154px;
+                }
+                .work_today_year{
+                    color: #000;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+}

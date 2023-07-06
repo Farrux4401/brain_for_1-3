@@ -1,0 +1,61 @@
+.oleg_capitonov{
+    background: #F57D0C;
+    height: 368px;
+    width: 90%;
+    @media #{$small_laptop}{
+        width: 94%;
+    }
+    .oleg_capitonov_block{
+        display: flex;
+        align-items: center;
+        // justify-content: center;
+        padding-left: 50px;
+        position: relative;
+        // transform: translate(140px,0px);
+        .oleg_capitonov_img{
+            padding-top: 48px;
+        }
+        @media #{$small_laptop}{
+            // transform: translate(12px,0px);
+        }
+        .oleg_capitonov_img{
+            // transform: translate(0px, 48px);
+        }
+        .oleg_capitonov_content{
+            display: flex;
+            flex-direction: column;
+            padding: 31px 4px 30px 64px;
+            width: 450px;
+            height: 248px;
+            background-color: #F5F5F5;
+            position: absolute;
+            z-index: 4;
+            // transform: translate(-50px,10px);
+            box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.10);
+            right: -54px;
+            .oleg_capitonov_title{
+                color: #000;
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 116.3%;
+                text-transform: uppercase;
+                margin-bottom: 12px;
+            }
+            .oleg_capitonov_description{
+                color: #454444;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 140.5%;
+                margin-bottom: 8px;
+            }
+            .oleg_capitonov_link{
+                a{
+                    color: #F57D0C;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+}

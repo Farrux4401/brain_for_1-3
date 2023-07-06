@@ -1,0 +1,76 @@
+.poligloto{
+    position: relative;
+    padding-bottom: 248px;
+    &::after{
+        content: '';
+        position: absolute;
+        // bottom: -248px;
+        bottom: 181px;
+        width: 1168000px;
+        height: 248px;
+        display: block;
+        background: #D9B4EF;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        z-index: 0;
+    }
+    .poligloto_block{
+        background-image: url(../imgs/poliglot_boy.png);
+        background-repeat: no-repeat;
+        // background-position: calc(100% - 115px) calc(100% - 181px);
+        // padding: 0 120px;
+        background-position: calc(100% - -9px) calc(100% - 181px);
+        padding: 0 80px;
+        @media #{$small_laptop}{
+            padding: 0 70px;
+            background-position: calc(100% - 15px) calc(100% - 181px);
+        }
+       .poligloto_top{
+        display: flex;
+        flex-direction: column;
+        background-image: url(../imgs/news.png);
+        background-repeat: no-repeat;
+        padding-top: 178px;
+        background-position: left calc(100% - 100px);
+        .poligloto_title{
+            color: #111;
+            font-size: 80px;
+            font-weight: 700;
+            line-height: 116.3%;
+            text-transform: uppercase;
+            margin-bottom: 64px;
+            padding-left: 53px;
+        }
+        .poligloto_text{
+            color: #000;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 151.3%;
+            text-transform: uppercase;
+            width: 565px;
+            padding-left: 74px;
+            margin-bottom: 42px;
+        }
+       } 
+       .poligloto_description{
+        color: #454444;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 140.5%;
+        // width: 266px;
+        width: 370px;
+        padding: 17px 34px 102px 70px;
+        background: #F5F5F5;
+        position: relative;
+        z-index: 1;
+        box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15);
+        .black_sp{
+            font-weight: 700;
+        }
+        .orange_sp{
+            color: #F57D0C;
+        }
+       }
+    }
+}

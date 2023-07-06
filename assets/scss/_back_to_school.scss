@@ -1,0 +1,59 @@
+.back_to_school{
+    // padding-top: 57px;
+    margin-top: -200px;
+    padding-bottom: 130px;
+    background-color: #F5F5F5;
+    .back_to_school_block{
+        .section_title{
+            margin-bottom: 62px;
+            .orange_line{
+                width: 20%;
+            }
+        }
+        .back_to_school_box{
+            display: flex;
+            align-items: center;
+            gap: 0 96px;
+            justify-content: space-around;
+            padding: 0 50px;
+            .back_to_school_item{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .back_to_school_img{
+                    margin-bottom: 15px;
+                }
+                .back_to_school_title{
+                    color: #F57D0C;
+                    text-align: center;
+                    font-size: 26px;
+                    font-weight: 700;
+                    font-variant: small-caps;
+                    line-height: normal;
+                    margin-bottom: 8px;
+                    width: 308px;
+                }
+                .back_to_school_year{
+                    color: #000;
+                    font-size: 28px;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+                &:last-child{
+                    .back_to_school_img{
+                        border-radius: 5px;
+                        border: 2px solid #7D7D7D;
+                        background: #F5F5F5;
+                        width: 259.183px;
+                        height: 258.022px;
+                        padding: 77px 70px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex: 0 0 auto;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,74 @@
+.petrov{
+    transform: translate(0px, -210px);
+    position: relative;
+    &::after{
+        content: '';
+        position: absolute;
+        bottom: -170px;
+        width: 1168000px;
+        height: 248px;
+        display: block;
+        background: #D9B4EF;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        z-index: 0;
+    }
+    .petrov_block{
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        .petrov_img{
+            position: relative;
+            z-index: 1;
+        }
+        .petrov_content{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            padding: 50px 44px 176px 76px;
+            background: #F5F5F5;
+            position: relative;
+            z-index: 2;
+            bottom: -100px;
+            box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15);
+            &::after{
+                content: '';
+                position: absolute;
+                width: 24px;
+                height: 324px;
+                background: #F57D0C;
+                bottom: 63px;
+                right: -24px;
+            }
+            .quote_icon{
+                position: absolute;
+                top: 28px;
+                left: 80px;
+            }
+            .petrov_subtitle{
+                color: #000;
+                text-align: right;
+                /* A8: Text block header */
+                font-size: 24px;
+                font-family: Noto Sans;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 151.3%;
+                width: 198px;
+                margin-bottom: 24px;
+            }
+            .petrov_description{
+                color: #454444;
+                text-align: right;
+                /* H10: Plain text */
+                font-size: 20px;
+                font-family: Noto Sans;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 140.5%;
+                width: 228px;
+            }
+        }
+    }
+}

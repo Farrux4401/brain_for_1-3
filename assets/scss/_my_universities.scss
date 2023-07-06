@@ -1,0 +1,100 @@
+.my_universities{
+    padding-top: 101px;
+    .my_universities_block{
+        padding: 0 68px;
+        .section_title{
+            margin-bottom: 71px;
+            justify-content: flex-start;
+            padding-left: 90px;
+            .orange_line{
+                width: 20%;
+            }
+        }
+        .my_universities_top{
+            display: flex;
+            gap: 0px 72px;
+            .my_universities_top_book{
+                transform: translate(0px,-390px);
+            }
+            .my_universities_top_img{
+                height: 453px;
+            }
+            .my_universities_top_content{
+                display: flex;
+                flex-direction: column;
+                gap: 16px 0px;
+                .my_universities_top_item{
+                    display: flex;
+                    gap: 0px 57px;
+                    .my_universities_top_year{
+                        color: #F57D0C;
+                        font-size: 90px;
+                        font-weight: 600;
+                        line-height: normal;
+                        text-transform: uppercase;
+                        opacity: 0.4000000059604645;
+                    }
+                    .my_universities_top_title{
+                        color: #000;
+                        font-size: 20px;
+                        font-weight: 600;
+                        line-height: 150%;
+                        width: 260px;
+                        p{
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+        }
+        .my_universities_bottom{
+            display: flex;
+            gap: 0 70px;
+            margin: 0 -70px;
+            .my_universities_bottom_item{
+                display: flex;
+                &:first-child{
+                    align-items: center;
+                    transform: translate(-50px, -150px);
+                }
+                &:last-child{
+                    padding-top: 70px;
+                }
+                .my_universities_bottom_content{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 16px 0;
+                    .my_universities_bottom_subtitle{
+                        color: #000;
+                        font-size: 24px;
+                        font-weight: 600;
+                        line-height: 151.3%;
+                    }
+                    .my_universities_bottom_text{
+                        color: #000;
+                        font-size: 20px;
+                        font-weight: 400;
+                        line-height: 150%;
+                        width: 258px;
+                    }
+                }
+                .my_universities_bottom_description{
+                    color: #000;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 150%;
+                    width: 258px;
+                }
+                .my_universities_bottom_year{
+                    color: #F57D0C;
+                    font-size: 90px;
+                    font-weight: 600;
+                    line-height: normal;
+                    text-transform: uppercase;
+                    opacity: 0.4000000059604645;
+                    transform: translate(46px, -32px);
+                }
+            }
+        }
+    }
+}

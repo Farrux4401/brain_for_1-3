@@ -1,0 +1,134 @@
+.big-dodo {
+  padding-top: 145px;
+  padding-bottom: 175px;
+  background-image: url(../imgs/pizza.svg);
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 45%;
+  position: relative;
+
+  .big-dodo__year {
+    color: #f57d0c;
+    font-size: 340px;
+    font-weight: 600;
+    line-height: 116.3%;
+    text-transform: uppercase;
+    opacity: 0.15000000596046448;
+    text-align: right;
+    margin-top: -130px;
+    margin-right: 130px;
+    margin-bottom: 60px;
+  }
+  .kafe-img {
+    position: relative;
+    img {
+      width: 80%;
+    }
+    &::before {
+      content: "";
+      display: block;
+      width: 343px;
+      height: 505px;
+      flex-shrink: 0;
+      background: #f57d0c;
+      position: absolute;
+      top: -15px;
+      left: -48px;
+      z-index: -1;
+    }
+  }
+  .pizza-experience {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    .pizza-experience_text {
+      margin-top: 223px;
+      h5 {
+        display: flex;
+        width: 368px;
+        color: #000;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 151.3%;
+        margin-bottom: 20px;
+      }
+      p {
+        display: flex;
+        width: 364px;
+        color: #454444;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 140.5%;
+        margin-bottom: 10px;
+      }
+    }
+    .pizza-experience_img {
+      margin-top: 400px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .read-more_block {
+    width: 476px;
+    background: #f5f5f5;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.15);
+    padding: 5px 46px 26px 100px;
+    margin-left: 350px;
+    margin-top: -100px;
+    position: relative;
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: -80px;
+      left: -40px;
+      width: 600px;
+      height: 291px;
+      flex-shrink: 0;
+      background: #f57d0c;
+      z-index: -1;
+    }
+    img {
+      margin-left: -55px;
+      transform: translateY(20px);
+    }
+    p {
+      color: #000;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 151.3%;
+      margin-bottom: 10px;
+    }
+    span {
+      display: block;
+      color: #454444;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 140.5%;
+      margin-bottom: 10px;
+    }
+    .read-btn {
+      display: inline-flex;
+      padding: 7px 18px;
+      align-items: flex-start;
+      gap: 10px;
+      border-radius: 5px;
+      border: 3px solid #000;
+      background: rgba(217, 217, 217, 0);
+      display: inline-block;
+      color: #000;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+  .big-dodo_gray {
+    position: absolute;
+    width: 100%;
+    height: 288px;
+    bottom: 130px;
+    background: #d9d9d9;
+    z-index: -2;
+  }
+}
